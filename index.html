@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
@@ -6,7 +7,7 @@
 <meta name="theme-color" content="#000000" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta name="description" content="Gold Green Tabacaria - Loja Premium Online com Descontos Progressivos" />
+<meta name="description" content="Gold Green Tabacaria - Loja Premium Online" />
 <title>Gold Green Tabacaria | Loja Premium</title>
 
 <link rel="manifest" href='data:application/manifest+json;charset=utf-8,{"name":"Gold Green Tabacaria","short_name":"GoldGreen","start_url":".","display":"standalone","background_color":"%23000000","theme_color":"%2300ff88","icons":[{"src":"https://i.ibb.co/Q16xbwt/C159-A3-EA-E27-F-4-C54-B4-FB-DE0-C4-DD46-E79.png","sizes":"512x512","type":"image/png"}]}' />
@@ -21,9 +22,11 @@
 
 <div class="particles" id="particles" aria-hidden="true"></div>
 
+<!-- LOADER & LOGIN -->
+
 <div id="loader">
   <div class="logo-wrap">
-    <img src="https://i.ibb.co/Q16xbwt/C159-A3-EA-E27-F-4-C54-B4-FB-DE0-C4-DD46-E79.png" alt="Gold Green Tabacaria logo" />
+    <img src="https://i.ibb.co/Q16xbwt/C159-A3-EA-E27-F-4-C54-B4-FB-DE0-C4-DD46-E79.png" alt="Gold Green Tabacaria" />
   </div>
   <h1 class="glow-text">Gold Green</h1>
   <div class="tag">Tabacaria Premium · 2025</div>
@@ -55,6 +58,8 @@
     <button type="submit" class="btn-primary">Entrar na loja</button>
   </form>
 </div>
+
+<!-- APP MAIN -->
 
 <main id="app">
 
@@ -131,9 +136,7 @@
     <div class="chest-section">
       <div class="chest" id="chest" role="button" aria-label="Abrir baú de recompensa">
         <svg viewBox="0 0 100 100">
-          <defs>
-            <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f4d36a"/><stop offset="1" stop-color="#a07a1a"/></linearGradient>
-          </defs>
+          <defs><linearGradient id="g1" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f4d36a"/><stop offset="1" stop-color="#a07a1a"/></linearGradient></defs>
           <rect x="14" y="38" width="72" height="46" rx="4" fill="url(#g1)" stroke="#5a4310" stroke-width="2"/>
           <path d="M14 50 Q50 22 86 50 L86 38 Q50 16 14 38 Z" fill="url(#g1)" stroke="#5a4310" stroke-width="2"/>
           <rect x="44" y="56" width="12" height="14" rx="1.5" fill="#1a1200" stroke="#5a4310"/>
@@ -159,6 +162,8 @@
   </footer>
 </main>
 
+<!-- FAB BUTTONS -->
+
 <div class="fab">
   <button class="sound" id="soundToggle" aria-label="Som on/off">
     <svg id="soundIcon" viewBox="0 0 24 24"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 010 7M19 5a9 9 0 010 14"/></svg>
@@ -168,6 +173,8 @@
     <span class="badge" id="cartBadge">0</span>
   </button>
 </div>
+
+<!-- CART DRAWER -->
 
 <div class="drawer-bg" id="drawerBg"></div>
 <aside class="drawer" id="drawer" aria-label="Carrinho">
@@ -192,12 +199,18 @@
   </div>
 </aside>
 
+<!-- LIVE TOAST -->
+
 <div class="toast" id="toast">
   <img id="toastImg" src="" alt="" />
   <div class="t-text"><b id="toastName">—</b><span id="toastBody">—</span></div>
 </div>
 
+<!-- UNLOCK BANNER -->
+
 <div class="unlock-banner" id="unlockBanner"><div class="pill" id="unlockPill">🎉 Desconto liberado</div></div>
+
+<!-- CONFETTI -->
 
 <div class="confetti" id="confetti" aria-hidden="true"></div>
 
